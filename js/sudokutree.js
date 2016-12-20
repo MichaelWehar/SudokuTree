@@ -1,7 +1,6 @@
 /* Author: Michael Wehar */
 
 /* Initialize */
-
 var mySudokuJS = $("#mainBoard").sudokuJS({ boardName: "mainBoard" });
 mySudokuJS.generateBoard("medium");
 var temp = mySudokuJS.getBoard();
